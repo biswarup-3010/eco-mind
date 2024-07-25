@@ -1,3 +1,7 @@
 export default function JoinUsPage() {
-  return <></>;
+  return (
+    <>
+      {/*for this page give the ID of the page as "JoinUsPage" ** most important */}
+    </>
+  );
 }

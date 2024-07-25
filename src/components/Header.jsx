@@ -8,7 +8,7 @@ export default function NavBar() {
     { id: 2, title: "About", link: "#aboutPage" },
     { id: 3, title: "Services", link: "#servicesPage" },
     { id: 4, title: "Blog", link: "#blogPage" },
-    { id: 5, title: "Join Us", link: "#contactPage" },
+    { id: 5, title: "Join Us", link: "#JoinUsPage" },
   ];
   const rotateIcon = () => {
     setIsRotated(!isRotated);
