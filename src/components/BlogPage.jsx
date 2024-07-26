@@ -1,55 +1,61 @@
 import bpic from "../images/boyImage.jpg";
+import upic from "../images/ume.png";
+import ppic from "../images/priya.png";
 import { AddBlog } from "./AddBlog";
-import gpic from "../images/girlsImage.jpeg";
+import biswapic from "../images/bpic.png";
 import { FaHeart } from "react-icons/fa";
 import { useState, useRef } from "react";
 const data = [
   {
     id: 1,
-    imgLink: bpic,
+    imgLink: biswapic,
     Name: "Biswarup Banerjee",
     profileLink: "#",
-    Event: "We started not to use fossil fuel programme ",
+    Event: "Global Warming Awareness",
     eventPic:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a697d7914617.5600bb08c4ee7.jpg",
-    desc: "fjanf ldsjfo fojof f ofnd fnkfn af pfidl bfidfbif wiefub aip a",
-    dates: "20/04/1002",
+      "https://www.classy.org/wp-content/uploads/2023/03/blog_climate-change-organizations-to-follow-in-2023-1224x612.jpg",
+    desc: `Global warming is a pressing issue, with the average temperature rising by 1.5°C over the last few years. It's essential to take immediate action to prevent further damage and create a better tomorrow for future generations. Human activities like deforestation, pollution, and greenhouse gas emissions are the main causes of global warming. Understanding these causes is crucial to finding effective solutions and creating a better tomorrow.`,
+    dates: "22/07/2024",
     liked: false,
   },
   {
     id: 2,
-    imgLink: gpic,
-    Name: "Smrity ",
+    imgLink: upic,
+    Name: "Umesh Kumar",
     profileLink: "#",
-    Event: "We started not to use fossil fuel programme ",
+    Event: "Awarness : The Devastating Effects of Global Warming",
     eventPic:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a697d7914617.5600bb08c4ee7.jpg",
-    desc: "fjanf ldsjfo fojof f ofnd fnkfn af pfidl bfidfbif wiefub aip a",
-    dates: "20/04/1002",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy9SXhPrG12EgGuNYVp6ptwW_p72RNfafeWg&s",
+    desc: `Global warming has severe consequences, including rising sea levels, melting glaciers, and extreme weather events. It's essential to acknowledge these effects and work towards mitigating them to create a better tomorrow.`,
+    dates: "21/07/2024",
     liked: false,
   },
   {
     id: 3,
-    imgLink: bpic,
-    Name: "Biswarup Banerjee",
+    imgLink: ppic,
+    Name: "Priya Roy",
     profileLink: "#",
-    Event: "We started not to use fossil fuel programme ",
+    Event: "Awarness : Global Warming by Air Pollution",
     eventPic:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a697d7914617.5600bb08c4ee7.jpg",
-    desc: "fjanf ldsjfo fojof f ofnd fnkfn af pfidl bfidfbif wiefub aip a",
-    dates: "20/04/1002",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeUGH-vCURxPbzoTsfzCqX3vHLoAZAB61gpg&s",
+    desc: `Air pollution is a significant contributor to global warming. The main pollutants responsible for global warming are : Carbon dioxide , Methane ,Nitrous oxide,Ozone. These pollutants trap heat in the atmosphere, leading to global warming. The effects of air pollution on global warming are:Temperature increase,Extreme weather events,Sea-level rise.`,
+    dates: "20/07/2024",
     liked: false,
   },
   {
     id: 4,
     imgLink: bpic,
-    Name: "Biswarup Banerjee",
+    Name: "TATA & BCCI",
     profileLink: "#",
-    Event: "We started not to use fossil fuel programme ",
+    Event: "TATA IPL '24: Every Dot Ball will planted a tree",
     eventPic:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a697d7914617.5600bb08c4ee7.jpg",
-    desc: "fjanf ldsjfo fojof f ofnd fnkfn af pfidl bfidfbif wiefub aip a",
-    dates: "20/04/1002",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj4FNbK_l9t1VJnLRdsT0ktq9V9kI033Kdmw&s",
+    desc: `The Tata tree plantation initiative in IPL 2024 is a wonderful initiative. As per the information, for every dot ball bowled in IPL 2024, the BCCI (Board of Control for Cricket in India) has pledged to plant 500 trees. This initiative aims to promote environmental sustainability and reduce the carbon footprint of the tournament.
+
+    In IPL 2023, the BCCI had planted 500 trees per dot ball, and it's great to see them continuing this initiative in IPL 2024. This effort will not only help in reducing the environmental impact of the tournament but also contribute to a greener and healthier environment for future generations.
+    
+    Let's hope this initiative inspires more organizations and individuals to take similar steps towards environmental sustainability!`,
+    dates: "25/05/2024",
     liked: false,
   },
 ];
