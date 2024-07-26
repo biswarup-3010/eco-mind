@@ -63,10 +63,10 @@ export default function TeamMember() {
         <br />
         <p className="text-md">
           <li>
-            "Imagine being part of a vibrant community that celebrates
+            Imagine being part of a vibrant community that celebrates
             individuality, creativity, and innovation. At EcoMind, we're
             committed to fostering a culture of collaboration, inclusivity, and
-            mutual respect. :
+            mutual respect.
           </li>
           <br />
           <li>
@@ -77,7 +77,7 @@ export default function TeamMember() {
             hands-on experiences Thrive in a flexible and supportive work
             environment that prioritizes your well-being, work-life balance, and
             personal growth Be part of a dynamic team that's shaping the future
-            of sustainable development and environmental stewardship"
+            of sustainable development and environmental stewardship
           </li>
         </p>
         <br />
