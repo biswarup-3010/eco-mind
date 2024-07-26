@@ -118,7 +118,7 @@ export default function AboutPage() {
               <a href={member.fb}>
                 {" "}
                 <button className="absolute h-8 w-auto p-1 bg-blue-500 bottom-0 right-0 cursor-pointer text-white">
-                  FaceBook
+                  visit
                 </button>
               </a>
             </div>
