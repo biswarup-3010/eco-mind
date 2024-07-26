@@ -65,9 +65,9 @@ export default function TeamMember() {
                       alt={`${member.name}'s picture`}
                       className="w-full h-40 object-cover"
                     />
-                    <p className="text-black text-center mt-2">{member.name}</p>
+                    <p className="text-black text-center">{member.name}</p>
                     <a href={member.fb}>
-                      <button className="absolute bottom-2 right-2 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                      <button className="absolute bottom-1 right-1 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
                         visit
                       </button>
                     </a>
