@@ -2,7 +2,7 @@ import React from "react";
 import ppic from "../images/priya.png";
 import npic from "../images/n.png";
 import bpic from "../images/boyImage.jpg";
-import upic from "../images/profile.jpeg";
+import upic from "../images/ume.png";
 import rpic from "../images/rajan.jpg";
 import spic from "../images/san.png";
 import { RiCopyrightLine } from "react-icons/ri";
