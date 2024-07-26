@@ -102,7 +102,7 @@ export default function BlogPage() {
   return (
     <>
       <div className="diagonal-gradiant-rev p-8" id="blogPage">
-        <h1 className="mt-16 text-2xl font-bold text-blue-500">Blogs</h1>
+        <h1 className="mt-16 text-2xl font-bold text-blue-500">Activities</h1>
         <br />
         <br />
         {!showAddBlog && (
