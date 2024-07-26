@@ -5,6 +5,7 @@ import bpic from "../images/boyImage.jpg";
 import upic from "../images/ume.png";
 import rpic from "../images/rajan.jpg";
 import spic from "../images/san.png";
+import biswapic from "../images/bpic.png";
 import { RiCopyrightLine } from "react-icons/ri";
 
 export default function TeamMember() {
@@ -23,7 +24,7 @@ export default function TeamMember() {
     },
     {
       id: 3,
-      picture: bpic,
+      picture: biswapic,
       name: "Biswarup Banerjee",
       fb: "#",
     },
