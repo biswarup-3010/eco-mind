@@ -47,13 +47,13 @@ export default function TeamMember() {
           Join the Movement towards a Greener Tomorrow
         </h1>
         <br />
-        <p className="text-xl">
-          "At EcoMind, we're driven by a shared passion for sustainable
+        <p className="text-sm">
+          " At EcoMind, we're driven by a shared passion for sustainable
           development and a determination to combat the pressing threat of
           global warming. If you're equally passionate about preserving the
           beauty and wonder of our natural world, we invite you to join our
           dynamic team of eco-warriors and contribute to shaping a brighter,
-          more sustainable future for all."
+          more sustainable future for all "
         </p>
         <br />
         <h1 className="text-2xl text-green-500">
@@ -61,7 +61,7 @@ export default function TeamMember() {
           Why Join the EcoMind Family?
         </h1>
         <br />
-        <p className="text-md">
+        <p className="text-sm">
           <li>
             Imagine being part of a vibrant community that celebrates
             individuality, creativity, and innovation. At EcoMind, we're
