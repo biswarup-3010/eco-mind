@@ -24,7 +24,7 @@ export default function HomePage() {
   return (
     <>
       <div
-        className="diagonal-gradiant overflow-hidden mb-0 border-l-2 border-r-2 h-auto md:h-screen lg:h-screen xl:h-screen border-t-2"
+        className="diagonal-gradiant overflow-hidden mb-0 h-auto md:h-screen lg:h-screen xl:h-screen "
         id="homePage"
       >
         <div
@@ -32,8 +32,8 @@ export default function HomePage() {
           className="max-w-screen-2xl container mx-auto px-4 md:px-12 mt-20 h-auto  "
         >
           <div className="flex flex-col md:flex-row ">
-            <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-              <span className="text-xl flex flex-row gap-1">
+            <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1 ">
+              <span className="text-2xl flex flex-row gap-1">
                 Welcome User{" "}
                 <FaHandFist className="text-green-600 font-bold text-xl" />
               </span>
@@ -45,8 +45,8 @@ export default function HomePage() {
                 className="text-sm md:text-md text-justify"
                 style={{ color: "#f1f5f9" }}
               >
-                <p className="text-xs sm:text-xs md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl text-black">
-                  <span className="text-red-500 font-bold text-xl">
+                <p className="text-xl sm:text-xl md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl text-black">
+                  <span className="text-red-500 font-bold text-xl sm:text-2xl md:text-3xl">
                     "Small steps today, a sustainable tomorrow..."
                   </span>
                   <br />

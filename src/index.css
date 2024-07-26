@@ -17,6 +17,11 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.diagonal-gradiant-rev {
+  background: linear-gradient(to top right, #ecfccb, #93c5fd);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .customTheSize {
   height: 100%;
   width: 100%;
