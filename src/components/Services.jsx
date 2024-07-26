@@ -1,5 +1,5 @@
 import React from "react";
-
+ 
 const Card = ({ image, heading, description }) => {
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
@@ -62,8 +62,9 @@ const cardData = [
 export default function Services() {
   return (
     <>
-      <div id="servicesPage" className="container mx-auto p-4 mt-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div id="servicesPage" className="w-full p-10 mt-0 diagonal-gradiant">
+        <div className="heading mt-16 text-2xl font-bold text-blue-500">Our Services</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
           {cardData.map((card, index) => (
             <Card key={index} image={card.image} heading={card.heading} description={card.description} />
           ))}
