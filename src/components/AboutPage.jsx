@@ -1,46 +1,4 @@
-import bpic from "../images/boyImage.jpg";
 export default function AboutPage() {
-  const members = [
-    {
-      id: 1,
-      picture: bpic,
-      name: "Priya Kumari",
-      fb: "#",
-    },
-    {
-      id: 2,
-      picture: bpic,
-      name: "Nishi Kumari",
-      fb: "#",
-    },
-
-    {
-      id: 3,
-      picture: bpic,
-      name: "Biswarup Banerjee",
-      fb: "#",
-    },
-
-    {
-      id: 4,
-      picture: bpic,
-      name: "Umesh Kumar",
-      fb: "#",
-    },
-
-    {
-      id: 5,
-      picture: bpic,
-      name: "Rajan Kumar",
-      fb: "#",
-    },
-    {
-      id: 6,
-      picture: bpic,
-      name: "Santosh Kumar",
-      fb: "#",
-    },
-  ];
   return (
     <>
       <div
@@ -95,35 +53,7 @@ export default function AboutPage() {
             create a community that inspires and supports each other in making
             environmentally conscious choices.
           </li>
-          <br />
         </ul>
-        <h1 className="mt-16 text-2xl font-bold text-blue-500">
-          Our Team Members
-        </h1>
-        <br />
-        <div className="flex flex-wrap justify-center gap-5 overflow-x-auto scroll-smooth">
-          {members.map((member) => (
-            <div
-              key={member.id}
-              className="relative min-h-40 w-32 border border-green-200 bg-blue-200/50 rounded-lg overflow-hidden "
-            >
-              <img
-                src={member.picture}
-                alt={`${member.name}'s picture`}
-                className="max-w-full h-auto"
-              />
-              <p>{member.name}</p>
-              <br />
-              <br />
-              <a href={member.fb}>
-                {" "}
-                <button className="absolute h-8 w-auto p-1 bg-blue-500 bottom-0 right-0 cursor-pointer text-white">
-                  visit
-                </button>
-              </a>
-            </div>
-          ))}
-        </div>
       </div>
     </>
   );
