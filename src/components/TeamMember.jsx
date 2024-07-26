@@ -42,16 +42,54 @@ export default function TeamMember() {
   return (
     <>
       <div className="w-full sm:w-1/2 p-4">
-        <h1 className="text-2xl text-green-500/90"> Hey User,</h1>
+        <h1 className="text-2xl text-green-500">
+          {" "}
+          Join the Movement towards a Greener Tomorrow
+        </h1>
         <br />
         <p className="text-xl">
-          We're Team EcoMind a non-profit organization dedicated to promoting
-          sustainable development and fighting against global warming. I came
-          across your profile and was impressed with your passion for
-          environmental issues. We'd love to talk to you about an opportunity to
-          join our team and make a real difference.
+          "At EcoMind, we're driven by a shared passion for sustainable
+          development and a determination to combat the pressing threat of
+          global warming. If you're equally passionate about preserving the
+          beauty and wonder of our natural world, we invite you to join our
+          dynamic team of eco-warriors and contribute to shaping a brighter,
+          more sustainable future for all."
         </p>
         <br />
+        <h1 className="text-2xl text-green-500">
+          {" "}
+          Why Join the EcoMind Family?
+        </h1>
+        <br />
+        <p className="text-md">
+          <li>
+            "Imagine being part of a vibrant community that celebrates
+            individuality, creativity, and innovation. At EcoMind, we're
+            committed to fostering a culture of collaboration, inclusivity, and
+            mutual respect. :
+          </li>
+          <br />
+          <li>
+            By joining our team, you'll have the opportunity to :- Make a
+            tangible difference in the lives of people and the planet through
+            our impactful projects Unlock your full potential through our
+            comprehensive training programs, mentorship initiatives, and
+            hands-on experiences Thrive in a flexible and supportive work
+            environment that prioritizes your well-being, work-life balance, and
+            personal growth Be part of a dynamic team that's shaping the future
+            of sustainable development and environmental stewardship"
+          </li>
+        </p>
+        <br />
+        <p className="text-green-400">
+          If you have any questions or would like to learn more about our
+          organization, please don't hesitate to contact us: <br />
+          <span className="text-blue-500">
+            +91 123-456-7890 | ecomind@gmail.com | Haldia, India
+          </span>
+          <br /> We look forward to hearing from you and exploring how you can
+          join our team!
+        </p>
         <br />
         <div className="w-full">
           <h1 className="p-4 text-2xl font-bold text-blue-500">
@@ -63,14 +101,14 @@ export default function TeamMember() {
             {members.map((member) => (
               <div
                 key={member.id}
-                className="relative min-h-40 w-32 border border-green-200 bg-blue-200/50 rounded-lg overflow-hidden "
+                className="relative min-h-40 w-32 border border-green-200 bg-blue-100 rounded-lg overflow-hidden "
               >
                 <img
                   src={member.picture}
                   alt={`${member.name}'s picture`}
                   className="max-w-full h-auto"
                 />
-                <p>{member.name}</p>
+                <p className="text-black">{member.name}</p>
                 <br />
                 <br />
                 <a href={member.fb}>
