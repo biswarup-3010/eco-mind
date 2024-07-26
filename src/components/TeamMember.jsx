@@ -5,6 +5,7 @@ import bpic from "../images/boyImage.jpg";
 import upic from "../images/ume.png";
 import rpic from "../images/rajan.jpg";
 import spic from "../images/san.png";
+import biswapic from "../images/bpic.png";
 import { RiCopyrightLine } from "react-icons/ri";
 
 export default function TeamMember() {
@@ -23,7 +24,7 @@ export default function TeamMember() {
     },
     {
       id: 3,
-      picture: bpic,
+      picture: biswapic,
       name: "Biswarup Banerjee",
       fb: "https://www.linkedin.com/in/biswarup-banerjee-406b72241/",
     },
@@ -64,9 +65,9 @@ export default function TeamMember() {
                       alt={`${member.name}'s picture`}
                       className="w-full h-40 object-cover"
                     />
-                    <p className="text-black text-center mt-2">{member.name}</p>
+                    <p className="text-black text-center">{member.name}</p>
                     <a href={member.fb}>
-                      <button className="absolute bottom-2 right-2 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                      <button className="absolute bottom-1 right-1 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
                         visit
                       </button>
                     </a>
