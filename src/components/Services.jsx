@@ -33,11 +33,6 @@ const cardData = [
     description: 'Interactive challenges with rewards and social media sharing.',
   },
   {
-    image: new URL('../assets/service/croprec.jpg', import.meta.url).href,
-    heading: 'Crop Recommendation System',
-    description: 'ML-based crop recommendations for optimal yields.',
-  },
-  {
     image: new URL('../assets/service/sustainableguid.jpg', import.meta.url).href,
     heading: 'Sustainable Living Guide',
     description: 'Tips, goal tracking, and app integration for sustainable habits.',
