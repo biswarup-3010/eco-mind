@@ -52,6 +52,11 @@ const cardData = [
     heading: 'News and Updates',
     description: 'Latest environmental news, updates, and newsletter subscription.',
   },
+  {
+    image: new URL('../assets/service/tree.jpg', import.meta.url).href,
+    heading: 'Tree Plantation',
+    description: 'Tree planting is the process of transplanting tree seedlings....',
+  },
 ];
 
 export default function Services() {
