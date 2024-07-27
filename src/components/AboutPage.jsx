@@ -49,7 +49,7 @@ export default function AboutPage() {
             common goal: to make a positive impact on the environment and the
             user's thinkings. We saw the need for a platform that provides
             practical tips, resources, and tools to help individuals and
-            businesses adopt sustainable practices. With EcoLife, we aim to
+            businesses adopt sustainable practices. With EcoMind, we aim to
             create a community that inspires and supports each other in making
             environmentally conscious choices.
           </li>

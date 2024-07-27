@@ -52,9 +52,9 @@ export default function HomePage() {
                   <br />
                   <br />
                   Raise awareness about global warming and its impact on the
-                  environment Educate users about sustainable practices and
-                  their benefits Encourage users to take action and make
-                  environmentally conscious choices Provide resources and tools
+                  environment.Educate users about sustainable practices and
+                  their benefits.Encourage users to take action and make
+                  environmentally conscious choices.Provide resources and tools
                   for individuals and businesses to adopt sustainable practices.
                 </p>
               </p>
