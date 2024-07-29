@@ -34,7 +34,7 @@ const data = [
   {
     id: 3,
     imgLink: npic,
-    Name: "Nishi Kumari",
+    Name: " Nishi Kumari",
     profileLink: "#",
     Event: "Impact on Biodiversity",
     eventPic:
