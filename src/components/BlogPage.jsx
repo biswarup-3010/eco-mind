@@ -1,5 +1,6 @@
 import bpic from "../images/boyImage.jpg";
 import upic from "../images/ume.png";
+import npic from "../images/n.png";
 import ppic from "../images/priya.png";
 import { AddBlog } from "./AddBlog";
 import biswapic from "../images/bpic.png";
@@ -32,6 +33,18 @@ const data = [
   },
   {
     id: 3,
+    imgLink: npic,
+    Name: "Nishi Kumai",
+    profileLink: "#",
+    Event: "Impact on Biodiversity",
+    eventPic:
+      "https://cdn.britannica.com/39/196539-050-08B1091D/Riverside-deforestation-Australia.jpg",
+    desc: `Global warming has a significant impact on biodiversity, leading to habitat loss, species migration, and extinction. As temperatures rise, many plants and animals are unable to adapt quickly enough to the changing climate, resulting in a loss of biodiversity. This disruption of ecosystems affects not only wildlife but also human life, as we depend on these ecosystems for food, water, and air quality. Preserving biodiversity is essential for maintaining a balanced environment and ensuring the well-being of all living organisms on Earth.`,
+    dates: "25/07/2024",
+    liked: false,
+  },
+  {
+    id: 4,
     imgLink: ppic,
     Name: "Priya Roy",
     profileLink: "#",
@@ -43,7 +56,7 @@ const data = [
     liked: false,
   },
   {
-    id: 4,
+    id: 5,
     imgLink: bpic,
     Name: "TATA & BCCI",
     profileLink: "#",
