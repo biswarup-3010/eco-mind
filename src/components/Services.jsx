@@ -166,25 +166,57 @@ const cardData = [
   },  
   {
     id: "4",
-    image: new URL("../assets/service/sustainableguid.jpg", import.meta.url)
-      .href,
+    image: new URL("../assets/service/sustainableguid.jpg", import.meta.url).href,
     heading: "Sustainable Living Guide",
-    description:
-      "Tips, goal tracking, and app integration for sustainable habits.",
-    mainDesc: ``,
-    dHeading1: "",
-    dHeading2: "",
-    dHeading3: "",
-    dHeading4: "",
-    dHeading5: "",
-    dDetails1: ``,
-    dDetails2: ``,
-    dDetails3: ``,
-    dDetails4: ``,
-    dDetails5: ``,
-    OtherDetailHeading: "",
-    OtherDetailsDesc: [],
-  },
+    description: "Tips, goal tracking, and app integration for sustainable habits.",
+  
+    mainDesc: `The Sustainable Living Guide provides practical tips, goal tracking, and app integration to help individuals adopt and maintain sustainable habits. This guide is a comprehensive resource for anyone looking to make positive changes for the environment.`,
+  
+    dHeading1: "Practical Tips",
+    dHeading2: "Goal Tracking",
+    dHeading3: "App Integration",
+    dHeading4: "Personalized Recommendations",
+    dHeading5: "Progress Reports",
+  
+    dDetails1: `Offers actionable tips on various aspects of sustainable living, including energy conservation, waste reduction, sustainable shopping, and more. Tips are easy to follow and implement in daily life.`,
+  
+    dDetails2: `Allows users to set and track sustainability goals. Whether it's reducing energy consumption, minimizing waste, or increasing the use of renewable resources, the guide helps monitor progress and stay motivated.`,
+  
+    dDetails3: `Integrates with popular apps to provide a seamless experience. Sync data from fitness trackers, smart home devices, and other apps to get a comprehensive view of your sustainability efforts.`,
+  
+    dDetails4: `Provides personalized recommendations based on user preferences and habits. The guide adapts to individual needs and offers tailored advice to maximize sustainability impact.`,
+  
+    dDetails5: `Generates detailed progress reports to help users see the impact of their efforts. Reports include statistics, achievements, and areas for improvement, making it easy to stay on track.`,
+  
+    OtherDetailHeading: "How to Get Started",
+    
+    OtherDetailsDesc: [
+      // {
+      //   headLine: "Download the Guide",
+      //   descs: `Access the Sustainable Living Guide online or download the app. Create a profile to start receiving personalized tips and recommendations.`
+      // },
+      // {
+      //   headLine: "Set Goals",
+      //   descs: `Define your sustainability goals within the guide. Choose from predefined goals or create custom ones that align with your lifestyle.`
+      // },
+      // {
+      //   headLine: "Integrate Apps",
+      //   descs: `Connect the guide to your favorite apps and devices. Sync data to get real-time updates on your sustainability efforts.`
+      // },
+      // {
+      //   headLine: "Follow Tips",
+      //   descs: `Implement the practical tips provided by the guide. Make small, sustainable changes in your daily routine to achieve your goals.`
+      // },
+      // {
+      //   headLine: "Track Progress",
+      //   descs: `Use the goal tracking and progress reports to monitor your achievements. Adjust your efforts based on the insights provided by the guide.`
+      // },
+      // {
+      //   headLine: "Benefits",
+      //   descs: `Provides a structured approach to sustainable living. Helps maintain motivation through goal tracking and progress reports. Offers personalized advice tailored to individual habits. Encourages the adoption of sustainable practices through easy-to-follow tips.`
+      // }
+    ]
+  },  
   {
     id: "5",
     image: new URL("../assets/service/communityform.jpg", import.meta.url).href,
