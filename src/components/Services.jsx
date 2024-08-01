@@ -191,30 +191,30 @@ const cardData = [
     OtherDetailHeading: "How to Get Started",
     
     OtherDetailsDesc: [
-      // {
-      //   headLine: "Download the Guide",
-      //   descs: `Access the Sustainable Living Guide online or download the app. Create a profile to start receiving personalized tips and recommendations.`
-      // },
-      // {
-      //   headLine: "Set Goals",
-      //   descs: `Define your sustainability goals within the guide. Choose from predefined goals or create custom ones that align with your lifestyle.`
-      // },
-      // {
-      //   headLine: "Integrate Apps",
-      //   descs: `Connect the guide to your favorite apps and devices. Sync data to get real-time updates on your sustainability efforts.`
-      // },
-      // {
-      //   headLine: "Follow Tips",
-      //   descs: `Implement the practical tips provided by the guide. Make small, sustainable changes in your daily routine to achieve your goals.`
-      // },
-      // {
-      //   headLine: "Track Progress",
-      //   descs: `Use the goal tracking and progress reports to monitor your achievements. Adjust your efforts based on the insights provided by the guide.`
-      // },
-      // {
-      //   headLine: "Benefits",
-      //   descs: `Provides a structured approach to sustainable living. Helps maintain motivation through goal tracking and progress reports. Offers personalized advice tailored to individual habits. Encourages the adoption of sustainable practices through easy-to-follow tips.`
-      // }
+      {
+        headLine: "Download the Guide",
+        descs: `Access the Sustainable Living Guide online or download the app. Create a profile to start receiving personalized tips and recommendations.`
+      },
+      {
+        headLine: "Set Goals",
+        descs: `Define your sustainability goals within the guide. Choose from predefined goals or create custom ones that align with your lifestyle.`
+      },
+      {
+        headLine: "Integrate Apps",
+        descs: `Connect the guide to your favorite apps and devices. Sync data to get real-time updates on your sustainability efforts.`
+      },
+      {
+        headLine: "Follow Tips",
+        descs: `Implement the practical tips provided by the guide. Make small, sustainable changes in your daily routine to achieve your goals.`
+      },
+      {
+        headLine: "Track Progress",
+        descs: `Use the goal tracking and progress reports to monitor your achievements. Adjust your efforts based on the insights provided by the guide.`
+      },
+      {
+        headLine: "Benefits",
+        descs: `Provides a structured approach to sustainable living. Helps maintain motivation through goal tracking and progress reports. Offers personalized advice tailored to individual habits. Encourages the adoption of sustainable practices through easy-to-follow tips.`
+      }
     ]
   },  
   {
