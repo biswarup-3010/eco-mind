@@ -115,22 +115,55 @@ const cardData = [
     id: "3",
     image: new URL("../assets/service/EcoChall.jpeg", import.meta.url).href,
     heading: "Eco-Challenges",
-    description:
-      "Interactive challenges with rewards and social media sharing.",
-    mainDesc: ``,
-    dHeading1: "",
-    dHeading2: "",
-    dHeading3: "",
-    dHeading4: "",
-    dHeading5: "",
-    dDetails1: ``,
-    dDetails2: ``,
-    dDetails3: ``,
-    dDetails4: ``,
-    dDetails5: ``,
-    OtherDetailHeading: "",
-    OtherDetailsDesc: [],
-  },
+    description: "Interactive challenges with rewards and social media sharing.",
+  
+    mainDesc: `Eco-Challenges are interactive activities designed to encourage sustainable practices through fun and engaging tasks. Participants can complete challenges, earn rewards, and share their achievements on social media, fostering a community of environmentally conscious individuals.`,
+  
+    dHeading1: "Variety of Challenges",
+    dHeading2: "Reward System",
+    dHeading3: "Social Media Integration",
+    dHeading4: "Community Engagement",
+    dHeading5: "Educational Content",
+  
+    dDetails1: `A wide range of challenges covering various aspects of sustainability, such as reducing plastic use, conserving water, and promoting recycling. Challenges are designed for different levels of difficulty and can be completed individually or in groups.`,
+  
+    dDetails2: `Earn points, badges, and rewards for completing challenges. Rewards can include discounts on eco-friendly products, digital badges, and recognition within the community. The reward system adds motivation and a sense of accomplishment.`,
+  
+    dDetails3: `Seamless integration with social media platforms to share progress, achievements, and completed challenges. Encourage friends and family to join the challenge and create a positive impact together.`,
+  
+    dDetails4: `Engage with a community of like-minded individuals who are also participating in eco-challenges. Share tips, experiences, and support each other in achieving sustainability goals. Join community events and group challenges for a collective impact.`,
+  
+    dDetails5: `Each challenge includes educational content to help participants understand the importance of the activity and how it contributes to sustainability. Learn about the environmental impact of everyday actions and discover new ways to live sustainably.`,
+  
+    OtherDetailHeading: "How to Participate",
+    
+    OtherDetailsDesc: [
+      // {
+      //   headLine: "Sign Up",
+      //   descs: `Create an account on the Eco-Challenges platform. Fill in your profile details and select the types of challenges you’re interested in.`
+      // },
+      // {
+      //   headLine: "Choose a Challenge",
+      //   descs: `Browse through the list of available challenges. Select a challenge that interests you and start participating.`
+      // },
+      // {
+      //   headLine: "Complete Tasks",
+      //   descs: `Follow the instructions for each challenge task. Complete the tasks within the given timeframe and earn points and rewards.`
+      // },
+      // {
+      //   headLine: "Share Achievements",
+      //   descs: `Use the social media integration to share your progress and achievements. Inspire others to join and participate in eco-challenges.`
+      // },
+      // {
+      //   headLine: "Track Progress",
+      //   descs: `Monitor your progress through the platform’s dashboard. View completed challenges, earned rewards, and set new goals for yourself.`
+      // },
+      // {
+      //   headLine: "Benefits",
+      //   descs: `Promotes sustainable practices through fun and engaging activities. Provides a sense of community and collective action towards environmental goals. Offers rewards and recognition to motivate continued participation. Educates participants on the importance of sustainability and how to make a positive impact.`
+      // }
+    ]
+  },  
   {
     id: "4",
     image: new URL("../assets/service/sustainableguid.jpg", import.meta.url)
