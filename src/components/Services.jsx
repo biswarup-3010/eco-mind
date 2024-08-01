@@ -85,30 +85,30 @@ const cardData = [
     OtherDetailHeading: "How to Use the Hub",
     
     OtherDetailsDesc: [
-      // {
-      //   headLine: "Explore Content",
-      //   descs: `Browse through various categories of articles, videos, and infographics. Use the search feature to find specific topics of interest.`
-      // },
-      // {
-      //   headLine: "Stay Updated",
-      //   descs: `Subscribe to newsletters and notifications to receive the latest content and updates. Follow the blog for regular posts and discussions.`
-      // },
-      // {
-      //   headLine: "Engage with Experts",
-      //   descs: `Participate in webinars, Q&A sessions, and forums hosted by sustainability experts. Gain deeper insights and practical advice.`
-      // },
-      // {
-      //   headLine: "Share and Collaborate",
-      //   descs: `Share your favorite content on social media and collaborate with others in the sustainability community. Contribute to the blog by sharing your own experiences and tips.`
-      // },
-      // {
-      //   headLine: "Implement Tips",
-      //   descs: `Apply the tips and best practices shared in the content to your daily life. Track your progress and make continuous improvements toward a sustainable lifestyle.`
-      // },
-      // {
-      //   headLine: "Benefits",
-      //   descs: `Increased knowledge and awareness about sustainability. Practical advice and tips for living a more eco-friendly life. Access to a community of sustainability enthusiasts and experts. Continuous learning and engagement opportunities.`
-      // }
+      {
+        headLine: "Explore Content",
+        descs: `Browse through various categories of articles, videos, and infographics. Use the search feature to find specific topics of interest.`
+      },
+      {
+        headLine: "Stay Updated",
+        descs: `Subscribe to newsletters and notifications to receive the latest content and updates. Follow the blog for regular posts and discussions.`
+      },
+      {
+        headLine: "Engage with Experts",
+        descs: `Participate in webinars, Q&A sessions, and forums hosted by sustainability experts. Gain deeper insights and practical advice.`
+      },
+      {
+        headLine: "Share and Collaborate",
+        descs: `Share your favorite content on social media and collaborate with others in the sustainability community. Contribute to the blog by sharing your own experiences and tips.`
+      },
+      {
+        headLine: "Implement Tips",
+        descs: `Apply the tips and best practices shared in the content to your daily life. Track your progress and make continuous improvements toward a sustainable lifestyle.`
+      },
+      {
+        headLine: "Benefits",
+        descs: `Increased knowledge and awareness about sustainability. Practical advice and tips for living a more eco-friendly life. Access to a community of sustainability enthusiasts and experts. Continuous learning and engagement opportunities.`
+      }
     ]
   },
   {
