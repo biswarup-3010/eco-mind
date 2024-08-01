@@ -244,34 +244,34 @@ const cardData = [
     OtherDetailHeading: "How to Participate",
     
     OtherDetailsDesc: [
-      // {
-      //   headLine: "Join the Forum",
-      //   descs: `Sign up for an account to become a member of the Community Forum. Fill out your profile to start participating in discussions and activities.`
-      // },
-      // {
-      //   headLine: "Engage in Discussions",
-      //   descs: `Browse existing topics or start new threads on the discussion board. Engage with other members by commenting, liking, and sharing posts.`
-      // },
-      // {
-      //   headLine: "Attend Webinars",
-      //   descs: `Register for upcoming webinars to learn from experts. Participate in live Q&A sessions and engage with other attendees.`
-      // },
-      // {
-      //   headLine: "Ask the Experts",
-      //   descs: `Submit your questions to scheduled Q&A sessions. Get answers and advice from professionals in various fields of expertise.`
-      // },
-      // {
-      //   headLine: "Manage Groups",
-      //   descs: `Create or join groups based on your interests. Utilize the group management tools to coordinate activities, plan events, and communicate effectively.`
-      // },
-      // {
-      //   headLine: "Share Resources",
-      //   descs: `Contribute to the resource library by sharing useful articles, research, and multimedia. Access a wealth of information shared by other members.`
-      // },
-      // {
-      //   headLine: "Benefits",
-      //   descs: `Fosters a collaborative and supportive community environment. Provides access to expert knowledge and real-time learning opportunities. Enhances group coordination and event management. Promotes resource sharing and collective growth.`
-      // }
+      {
+        headLine: "Join the Forum",
+        descs: `Sign up for an account to become a member of the Community Forum. Fill out your profile to start participating in discussions and activities.`
+      },
+      {
+        headLine: "Engage in Discussions",
+        descs: `Browse existing topics or start new threads on the discussion board. Engage with other members by commenting, liking, and sharing posts.`
+      },
+      {
+        headLine: "Attend Webinars",
+        descs: `Register for upcoming webinars to learn from experts. Participate in live Q&A sessions and engage with other attendees.`
+      },
+      {
+        headLine: "Ask the Experts",
+        descs: `Submit your questions to scheduled Q&A sessions. Get answers and advice from professionals in various fields of expertise.`
+      },
+      {
+        headLine: "Manage Groups",
+        descs: `Create or join groups based on your interests. Utilize the group management tools to coordinate activities, plan events, and communicate effectively.`
+      },
+      {
+        headLine: "Share Resources",
+        descs: `Contribute to the resource library by sharing useful articles, research, and multimedia. Access a wealth of information shared by other members.`
+      },
+      {
+        headLine: "Benefits",
+        descs: `Fosters a collaborative and supportive community environment. Provides access to expert knowledge and real-time learning opportunities. Enhances group coordination and event management. Promotes resource sharing and collective growth.`
+      }
     ]
   },  
   {
