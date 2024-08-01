@@ -5,7 +5,6 @@ import BlogPage from '../components/BlogPage';
 import { AddBlog } from '../components/AddBlog';
 import HomePage from '../components/HomePage';
 import Services from '../components/Services';
-import TeamMember from '../components/TeamMember';
 import JoinUsPage from '../components/JoinUsPage';
 
 //----------------MAIN PAGE----------------------------
@@ -18,7 +17,6 @@ const Home = () => {
       <Services />
       <BlogPage />
       <JoinUsPage />
-      <TeamMember />
     </>
   );
 }
