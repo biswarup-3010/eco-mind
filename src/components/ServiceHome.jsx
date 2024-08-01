@@ -15,9 +15,12 @@ const Card = ({ id, image, heading, description }) => {
           </div>
           <div className="flex justify-center">
             <Link to={`/learn-more/${id}`}>
-              <button className="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition-colors duration-300 mt-auto">
+              <a
+                href="#servicesPage"
+                className="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition-colors duration-300 mt-auto"
+              >
                 Learn More
-              </button>
+              </a>
             </Link>
           </div>
         </div>
