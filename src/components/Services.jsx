@@ -138,30 +138,30 @@ const cardData = [
     OtherDetailHeading: "How to Participate",
     
     OtherDetailsDesc: [
-      // {
-      //   headLine: "Sign Up",
-      //   descs: `Create an account on the Eco-Challenges platform. Fill in your profile details and select the types of challenges you’re interested in.`
-      // },
-      // {
-      //   headLine: "Choose a Challenge",
-      //   descs: `Browse through the list of available challenges. Select a challenge that interests you and start participating.`
-      // },
-      // {
-      //   headLine: "Complete Tasks",
-      //   descs: `Follow the instructions for each challenge task. Complete the tasks within the given timeframe and earn points and rewards.`
-      // },
-      // {
-      //   headLine: "Share Achievements",
-      //   descs: `Use the social media integration to share your progress and achievements. Inspire others to join and participate in eco-challenges.`
-      // },
-      // {
-      //   headLine: "Track Progress",
-      //   descs: `Monitor your progress through the platform’s dashboard. View completed challenges, earned rewards, and set new goals for yourself.`
-      // },
-      // {
-      //   headLine: "Benefits",
-      //   descs: `Promotes sustainable practices through fun and engaging activities. Provides a sense of community and collective action towards environmental goals. Offers rewards and recognition to motivate continued participation. Educates participants on the importance of sustainability and how to make a positive impact.`
-      // }
+      {
+        headLine: "Sign Up",
+        descs: `Create an account on the Eco-Challenges platform. Fill in your profile details and select the types of challenges you’re interested in.`
+      },
+      {
+        headLine: "Choose a Challenge",
+        descs: `Browse through the list of available challenges. Select a challenge that interests you and start participating.`
+      },
+      {
+        headLine: "Complete Tasks",
+        descs: `Follow the instructions for each challenge task. Complete the tasks within the given timeframe and earn points and rewards.`
+      },
+      {
+        headLine: "Share Achievements",
+        descs: `Use the social media integration to share your progress and achievements. Inspire others to join and participate in eco-challenges.`
+      },
+      {
+        headLine: "Track Progress",
+        descs: `Monitor your progress through the platform’s dashboard. View completed challenges, earned rewards, and set new goals for yourself.`
+      },
+      {
+        headLine: "Benefits",
+        descs: `Promotes sustainable practices through fun and engaging activities. Provides a sense of community and collective action towards environmental goals. Offers rewards and recognition to motivate continued participation. Educates participants on the importance of sustainability and how to make a positive impact.`
+      }
     ]
   },  
   {
