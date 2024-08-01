@@ -221,22 +221,59 @@ const cardData = [
     id: "5",
     image: new URL("../assets/service/communityform.jpg", import.meta.url).href,
     heading: "Community Forum",
-    description:
-      "Discussion board, expert Q&As, webinars, and group management.",
-    mainDesc: ``,
-    dHeading1: "",
-    dHeading2: "",
-    dHeading3: "",
-    dHeading4: "",
-    dHeading5: "",
-    dDetails1: ``,
-    dDetails2: ``,
-    dDetails3: ``,
-    dDetails4: ``,
-    dDetails5: ``,
-    OtherDetailHeading: "",
-    OtherDetailsDesc: [],
-  },
+    description: "Discussion board, expert Q&As, webinars, and group management.",
+  
+    mainDesc: `The Community Forum is a vibrant online platform that facilitates discussions, expert Q&A sessions, webinars, and group management. It is designed to foster a collaborative environment where users can engage, learn, and share knowledge about sustainability and other relevant topics.`,
+  
+    dHeading1: "Discussion Board",
+    dHeading2: "Expert Q&As",
+    dHeading3: "Webinars",
+    dHeading4: "Group Management",
+    dHeading5: "Resource Sharing",
+  
+    dDetails1: `An open discussion board where users can start conversations, ask questions, and share experiences on various topics. It’s a space for exchanging ideas, seeking advice, and building a supportive community.`,
+  
+    dDetails2: `Regular Q&A sessions with experts in sustainability, environmental science, and related fields. Users can submit questions and receive informed answers from industry professionals, enhancing their understanding of complex topics.`,
+  
+    dDetails3: `Interactive webinars hosted by experts, providing in-depth insights into specific subjects. These live sessions offer opportunities for real-time interaction, learning, and networking with other participants.`,
+  
+    dDetails4: `Tools for managing and organizing groups within the forum. Whether it’s a local sustainability club or an online interest group, the platform supports collaboration, event planning, and communication among group members.`,
+  
+    dDetails5: `A dedicated space for sharing valuable resources such as articles, research papers, videos, and infographics. Users can contribute and access a wide range of materials to support their learning and initiatives.`,
+  
+    OtherDetailHeading: "How to Participate",
+    
+    OtherDetailsDesc: [
+      // {
+      //   headLine: "Join the Forum",
+      //   descs: `Sign up for an account to become a member of the Community Forum. Fill out your profile to start participating in discussions and activities.`
+      // },
+      // {
+      //   headLine: "Engage in Discussions",
+      //   descs: `Browse existing topics or start new threads on the discussion board. Engage with other members by commenting, liking, and sharing posts.`
+      // },
+      // {
+      //   headLine: "Attend Webinars",
+      //   descs: `Register for upcoming webinars to learn from experts. Participate in live Q&A sessions and engage with other attendees.`
+      // },
+      // {
+      //   headLine: "Ask the Experts",
+      //   descs: `Submit your questions to scheduled Q&A sessions. Get answers and advice from professionals in various fields of expertise.`
+      // },
+      // {
+      //   headLine: "Manage Groups",
+      //   descs: `Create or join groups based on your interests. Utilize the group management tools to coordinate activities, plan events, and communicate effectively.`
+      // },
+      // {
+      //   headLine: "Share Resources",
+      //   descs: `Contribute to the resource library by sharing useful articles, research, and multimedia. Access a wealth of information shared by other members.`
+      // },
+      // {
+      //   headLine: "Benefits",
+      //   descs: `Fosters a collaborative and supportive community environment. Provides access to expert knowledge and real-time learning opportunities. Enhances group coordination and event management. Promotes resource sharing and collective growth.`
+      // }
+    ]
+  },  
   {
     id: "6",
     image: new URL("../assets/service/bussiness.jpeg", import.meta.url).href,
