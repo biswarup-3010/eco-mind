@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { RxCross2 } from "react-icons/rx";
 
 const LearnMore = ({ cardData }) => {
   const { cardId } = useParams();
@@ -16,6 +17,13 @@ const LearnMore = ({ cardData }) => {
         className="diagonal-gradient mx-auto p-4 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-300/90 overflow-y-auto max-h-screen"
         id="servicesPage"
       >
+        <span className="flex flex-row">
+          <RxCross2
+            className="absolute right-5 buttom-10 text-2xl text-blue-800 border border-2 rounded-full border-blue-500"
+            onClick={() => navigate(-1)}
+          />
+        </span>
+        <br />
         <br />
         <h1 className="text-2xl font-bold mb-4">{card.heading}</h1>
         <img src={card.image} className="w-full md:w-1/2" />
@@ -131,16 +139,6 @@ const LearnMore = ({ cardData }) => {
           </ul>
         </div>
         {/* ------------------------------------ */}
-        <br />
-        <br />
-        <br />
-        <button
-          className="absolute right-5 buttom-10 bg-blue-800 text-white py-2 px-4 rounded-full hover:bg-orange-600 transition-colors duration-300"
-          onClick={() => navigate(-1)}
-        >
-          Go Back
-        </button>
-        <br />
         <br />
       </div>
     </div>
