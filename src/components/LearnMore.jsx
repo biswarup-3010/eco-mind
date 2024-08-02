@@ -11,14 +11,11 @@ const LearnMore = ({ cardData }) => {
   }
 
   return (
-    <>
+    <div className="mx-auto">
       <div
-        className="diagonal-gradiant  mx-auto p-4 h-auto sm:min-h-screen"
+        className="diagonal-gradient mx-auto p-4 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-200/90 overflow-y-auto max-h-screen"
         id="servicesPage"
       >
-        <div className="heading mt-16 text-2xl font-bold text-blue-500">
-          Our Services
-        </div>
         <br />
         <h1 className="text-2xl font-bold mb-4">{card.heading}</h1>
         <img src={card.image} alt="" />
@@ -138,13 +135,15 @@ const LearnMore = ({ cardData }) => {
         <br />
         <br />
         <button
-          className="absolute right-5 buttom-5 bg-blue-800 text-white py-2 px-4 rounded-full hover:bg-orange-600 transition-colors duration-300"
+          className="absolute right-5 buttom-10 bg-blue-800 text-white py-2 px-4 rounded-full hover:bg-orange-600 transition-colors duration-300"
           onClick={() => navigate(-1)}
         >
           Go Back
         </button>
+        <br />
+        <br />
       </div>
-    </>
+    </div>
   );
 };
 
