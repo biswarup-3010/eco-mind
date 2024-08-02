@@ -13,7 +13,7 @@ const LearnMore = ({ cardData }) => {
   return (
     <div className="mx-auto">
       <div
-        className="diagonal-gradient mx-auto p-4 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-200/90 overflow-y-auto max-h-screen"
+        className="diagonal-gradient p-4 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-200/90 overflow-y-auto max-h-screen"
         id="servicesPage"
       >
         <br />

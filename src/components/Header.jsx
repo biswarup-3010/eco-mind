@@ -60,7 +60,7 @@ export default function NavBar() {
                 <a href={item.link}>
                   <button
                     type="button"
-                    className="focus:outline-none font-medium rounded-lg text-sm px-1 py-2 text-center bg-gradient-to-r from-red-400 to-blue-500 hover:bg-gradient-to-l from-red-400 to-blue-500 hover:text-white"
+                    className="focus:outline-none font-medium rounded-lg text-sm px-1 py-2 text-center bg-gradient-to-r hover:bg-gradient-to-l from-red-400 to-blue-500 hover:text-white"
                   >
                     {item.title}
                   </button>
