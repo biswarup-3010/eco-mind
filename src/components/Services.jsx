@@ -333,21 +333,53 @@ const cardData = [
     id: "7",
     image: new URL("../assets/service/newsupdate.jpg", import.meta.url).href,
     heading: "News and Updates",
-    description:
-      "Latest environmental news, updates, and newsletter subscription.",
-    mainDesc: ``,
-    dHeading1: "",
-    dHeading2: "",
-    dHeading3: "",
-    dHeading4: "",
-    dHeading5: "",
-    dDetails1: ``,
-    dDetails2: ``,
-    dDetails3: ``,
-    dDetails4: ``,
-    dDetails5: ``,
-    OtherDetailHeading: "",
-    OtherDetailsDesc: [],
+    description: "Latest environmental news, updates, and newsletter subscription.",
+  
+    mainDesc: "The News and Updates section provides the latest information on environmental issues, sustainability trends, and relevant developments. Stay informed about current events and subscribe to newsletters for regular updates delivered straight to your inbox.",
+  
+    dHeading1: "Latest Environmental News",
+    dHeading2: "Timely Updates",
+    dHeading3: "Newsletter Subscription",
+    dHeading4: "In-Depth Articles",
+    dHeading5: "Expert Insights",
+  
+    dDetails1: "Access a regularly updated feed of the latest news related to environmental issues, climate change, and sustainability. Stay informed about major events, policy changes, and scientific discoveries impacting the environment.",
+  
+    dDetails2:" Receive timely updates on recent developments and trends in the sustainability sector. This includes information on new regulations, technological advancements, and noteworthy initiatives from around the world.",
+  
+    dDetails3:" Subscribe to our newsletter to get curated news and updates delivered directly to your email. Stay up-to-date with a summary of important stories and upcoming events related to environmental sustainability.",
+  
+    dDetails4: "Read in-depth articles that provide detailed analyses and perspectives on key environmental topics. These articles offer a deeper understanding of complex issues and emerging trends.",
+  
+    dDetails5: "Gain insights from industry experts and thought leaders through interviews, opinion pieces, and expert commentary. Learn from the experiences and knowledge of those shaping the future of sustainability.",
+  
+    OtherDetailHeading: "How to Stay Updated",
+    
+    OtherDetailsDesc: [
+      {
+        headLine: "Browse News",
+        descs: "Visit the News and Updates section regularly to catch up on the latest environmental news and updates. Use filters to find stories of interest."
+      },
+      {
+        headLine: "Subscribe to Newsletter",
+        descs: "Sign up for the newsletter by entering your email address. Choose your preferences to receive relevant content and updates."
+      },
+      {
+        headLine: "Read Articles",
+        descs: "Explore in-depth articles to gain a comprehensive understanding of environmental issues. Use the article archive to access past publications."
+      },
+      {
+        headLine: "Follow Expert Insights",
+        descs: "Read and engage with content from industry experts. Follow their insights to stay informed about best practices and innovative solutions in sustainability."
+      },
+      {
+        headLine: "Engage with Content",
+        descs: "Share news and articles on social media to spread awareness. Participate in discussions and provide feedback on topics of interest."
+      },
+      {
+        headLine: "Benefits",
+        descs: "Keeps you informed about the latest developments in environmental sustainability. Provides curated updates and expert analysis for a deeper understanding. Offers a convenient way to stay connected with ongoing environmental issues and trends."      }
+    ]
   },
   {
     id: "8",
