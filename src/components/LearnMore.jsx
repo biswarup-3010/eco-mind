@@ -13,12 +13,12 @@ const LearnMore = ({ cardData }) => {
   return (
     <div className="mx-auto">
       <div
-        className="diagonal-gradient p-4 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-200/90 overflow-y-auto max-h-screen"
+        className="diagonal-gradient mx-auto p-4 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-300/90 overflow-y-auto max-h-screen"
         id="servicesPage"
       >
         <br />
         <h1 className="text-2xl font-bold mb-4">{card.heading}</h1>
-        <img src={card.image} alt="" />
+        <img src={card.image} className="w-full md:w-1/2" />
         <br />
         <p className="text-gray-700 mb-4 text-xl">{card.mainDesc}</p>
         {/* ------------------------------------ */}
