@@ -14,11 +14,11 @@ const LearnMore = ({ cardData }) => {
   return (
     <div className="mx-auto">
       <div
-        className="diagonal-gradient mx-auto p-4 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-300/90 overflow-y-auto max-h-screen"
+        className="diagonal-gradient p-4 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-300/90 overflow-y-auto max-h-screen"
         id="servicesPage"
       >
         <RxCross2
-          className="fixed right-5 buttom-10 text-2xl text-blue-800 border border-2 rounded-full border-blue-500 z-30"
+          className="fixed cursor-pointer right-5 buttom-10 text-2xl text-blue-800 border-2 rounded-full border-blue-500 z-30"
           onClick={() => navigate(-1)}
         />
         <br />
