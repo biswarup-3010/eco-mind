@@ -5,7 +5,7 @@ export default function AboutPage() {
         className="p-5 diagonal-gradiant-rev overflow-hidden mb-0 h-auto md:min-h-screen lg:min-h-screen xl:min-h-screen"
         id="aboutPage"
       >
-        <h1 className="mt-16 text-2xl font-bold text-blue-500">About Us</h1>
+        <h1 className="mt-16 text-3xl font-bold text-blue-500">About Us</h1>
         <br />
         <h2 className="text-xl">
           Our main motive is_{" "}
