@@ -7,7 +7,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaHandFist } from "react-icons/fa6";
 
 export default function HomePage() {
-  const [btnContent, setBtnContent] = useState("Without Greens");
+  const [btnContent, setBtnContent] = useState("With Greens");
   const [withTrees, setWithTrees] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -24,7 +24,7 @@ export default function HomePage() {
   return (
     <>
       <div
-        className="diagonal-gradiant overflow-hidden mb-0 h-auto md:h-screen lg:h-screen xl:h-screen "
+        className="diagonal-gradiant overflow-hidden mb-0 h-auto "
         id="homePage"
       >
         <div
@@ -46,7 +46,7 @@ export default function HomePage() {
                 style={{ color: "#f1f5f9" }}
               >
                 <p className="text-xl sm:text-xl md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl text-black">
-                  <span className="text-red-500 font-bold text-xl sm:text-2xl md:text-3xl">
+                  <span className="text-red-500 font-bold text-xl">
                     "Small steps today, a sustainable tomorrow..."
                   </span>
                   <br />
