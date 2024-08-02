@@ -408,30 +408,30 @@ const cardData = [
     OtherDetailHeading: "How to Participate",
     
      OtherDetailsDesc: [
-    // //   {
-    // //     headLine: "Find a Tree Planting Event",
-    // //     descs: "Check local listings or organizations for upcoming tree planting events. Join these events to contribute directly to the initiative."
-    // //   },
-    // //   {
-    // //     headLine: "Get Involved Locally",
-    // //     descs: "Reach out to local environmental groups or community organizations to participate in or organize tree planting activities."
-    // //   },
-    // //   {
-    // //     headLine: "Adopt a Tree",
-    // //     descs: "Consider adopting a tree or small grove to support its growth and maintenance. Engage in activities that contribute to its health and survival."
-    // //   },
-    // //   {
-    // //     headLine: "Educate and Advocate",
-    // //     descs: "Educate others about the benefits of tree plantation and advocate for more green spaces in your community. Share information through social media and local events."
-    // //   },
-    // //   {
-    // //     headLine: "Monitor and Maintain",
-    // //     descs: "If involved in ongoing projects, assist with the maintenance and monitoring of planted trees to ensure their long-term success."
-    // //   },
-    // //   {
-    // //     headLine: "Benefits",
-    // //     descs: "Contributes to environmental conservation and biodiversity. Improves air quality and reduces carbon footprint. Engages and educates the community about sustainability. Enhances local green spaces and provides aesthetic and ecological value."
-    // //   }
+      {
+        headLine: "Find a Tree Planting Event",
+        descs: "Check local listings or organizations for upcoming tree planting events. Join these events to contribute directly to the initiative."
+      },
+      {
+        headLine: "Get Involved Locally",
+        descs: "Reach out to local environmental groups or community organizations to participate in or organize tree planting activities."
+      },
+      {
+        headLine: "Adopt a Tree",
+        descs: "Consider adopting a tree or small grove to support its growth and maintenance. Engage in activities that contribute to its health and survival."
+      },
+      {
+        headLine: "Educate and Advocate",
+        descs: "Educate others about the benefits of tree plantation and advocate for more green spaces in your community. Share information through social media and local events."
+      },
+      {
+        headLine: "Monitor and Maintain",
+        descs: "If involved in ongoing projects, assist with the maintenance and monitoring of planted trees to ensure their long-term success."
+      },
+      {
+        headLine: "Benefits",
+        descs: "Contributes to environmental conservation and biodiversity. Improves air quality and reduces carbon footprint. Engages and educates the community about sustainability. Enhances local green spaces and provides aesthetic and ecological value."
+      }
      ]
   },
   
