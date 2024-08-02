@@ -44,6 +44,10 @@ export default function JoinUsPage() {
       console.log("Form submitted:", formData);
       setIsSubmitting(false);
       setIsSubmitted(true);
+      // Refresh the page to clear form data
+      setTimeout(() => {
+        window.location.reload();
+      }, 2000);
     }, 2000);
   };
 
@@ -155,7 +159,7 @@ export default function JoinUsPage() {
             </div>
             <div>
               <label htmlFor="message" className="block text-lg">
-                Your Message
+                Why You Want to Join Us
               </label>
               <textarea
                 id="message"
@@ -203,6 +207,7 @@ export default function JoinUsPage() {
             <button
               type="submit"
               className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600"
+              disabled={isSubmitting}
             >
               Submit
             </button>
