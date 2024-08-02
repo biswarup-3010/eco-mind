@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import TeamMember from "./TeamMember";
 import { FaHeart, FaSpinner, FaCheckCircle } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
 
 export default function JoinUsPage() {
   const [formData, setFormData] = useState({
@@ -217,7 +221,22 @@ export default function JoinUsPage() {
       <br />
       <br />
       <TeamMember />
-      <br />
+
+       
+      <br/>
+      <div className="flex items-center justify-center pb-2">
+        <p className="text-xl text-blue-500">Connect Us With</p>
+      </div>
+
+      <div className="flex flex-row justify-center gap-6 cursor-pointer text-green-200 text-xl  ">
+         
+         <FaFacebookSquare/>
+         <FaSquareInstagram/>
+         <FaXTwitter/>
+         <IoLogoYoutube/>
+      </div>
+      <br/>
+  
       <div className="flex flex-row justify-center gap-3 text-xs">
         Made with love <FaHeart className="text-red-500" />
       </div>
