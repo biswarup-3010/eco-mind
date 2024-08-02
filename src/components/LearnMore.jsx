@@ -11,14 +11,11 @@ const LearnMore = ({ cardData }) => {
   }
 
   return (
-    <>
+    <div className="mx-auto">
       <div
-        className="diagonal-gradiant  mx-auto p-4 h-auto sm:min-h-screen"
+        className="diagonal-gradient mx-auto p-16 h-auto sm:min-h-screen fixed top-0 w-full mx-auto z-10 bg-green-200/90 overflow-y-auto max-h-screen"
         id="servicesPage"
       >
-        <div className="heading mt-16 text-2xl font-bold text-blue-500">
-          Our Services
-        </div>
         <br />
         <h1 className="text-2xl font-bold mb-4">{card.heading}</h1>
         <img src={card.image} alt="" />
@@ -144,7 +141,7 @@ const LearnMore = ({ cardData }) => {
           Go Back
         </button>
       </div>
-    </>
+    </div>
   );
 };
 
