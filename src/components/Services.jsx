@@ -274,26 +274,61 @@ const cardData = [
       }
     ]
   },  
+  
   {
     id: "6",
     image: new URL("../assets/service/bussiness.jpeg", import.meta.url).href,
     heading: "Business Sustainability Toolkit",
-    description:
-      "Resources, case studies, and guides for sustainable business practices.",
-    mainDesc: ``,
-    dHeading1: "",
-    dHeading2: "",
-    dHeading3: "",
-    dHeading4: "",
-    dHeading5: "",
-    dDetails1: ``,
-    dDetails2: ``,
-    dDetails3: ``,
-    dDetails4: ``,
-    dDetails5: ``,
-    OtherDetailHeading: "",
-    OtherDetailsDesc: [],
+    description: "Resources, case studies, and guides for sustainable business practices.",
+  
+    mainDesc: "The Business Sustainability Toolkit is a comprehensive collection of resources designed to help businesses implement and enhance sustainable practices. It includes case studies, practical guides, and valuable resources to support companies in their journey towards sustainability.",
+  
+    dHeading1: "Comprehensive Resources",
+    dHeading2: "In-Depth Case Studies",
+    dHeading3: "Practical Guides",
+    dHeading4: "Implementation Tools",
+    dHeading5: "Best Practices",
+  
+    dDetails1: "Access a wide range of resources including articles, white papers, and research reports on sustainability. These resources provide valuable insights into sustainable business practices and industry trends.",
+  
+    dDetails2: "Explore detailed case studies of companies that have successfully implemented sustainable practices. Learn from their experiences, challenges, and solutions to apply similar strategies to your own business.",
+  
+    dDetails3: "Utilize practical guides that offer step-by-step instructions on various aspects of sustainability, such as reducing carbon footprint, implementing recycling programs, and improving energy efficiency.",
+  
+    dDetails4: "Access tools and templates designed to assist with the implementation of sustainability initiatives. These include checklists, assessment tools, and planning templates to streamline the process.",
+  
+    dDetails5: "Learn about best practices from leading companies and industry experts. Understand the key factors for successful sustainability initiatives and how to integrate them into your business operations.",
+  
+    OtherDetailHeading: "How to Use the Toolkit",
+    
+    OtherDetailsDesc: [
+      {
+        headLine: "Explore Resources",
+        descs: "Browse through the collection of resources to gather knowledge on various sustainability topics. Use the search function to find specific information relevant to your business needs."
+      },
+      {
+        headLine: "Review Case Studies",
+        descs: "Study the case studies to understand how other businesses have approached sustainability. Analyze their strategies and results to gain insights for your own practices."
+      },
+      {
+        headLine: "Follow Guides",
+        descs: "Implement the recommendations from the practical guides. Follow the step-by-step instructions to integrate sustainable practices into your business operations."
+      },
+      {
+        headLine: "Utilize Tools",
+        descs: "Use the provided tools and templates to assist with planning and implementing sustainability initiatives. Customize the templates to fit your business’s specific needs."
+      },
+      {
+        headLine: "Adopt Best Practices",
+        descs: "Incorporate the best practices outlined in the toolkit into your business strategy. Monitor progress and adjust practices as needed to achieve sustainability goals."
+      },
+      {
+        headLine: "Benefits",
+        descs: "Provides a structured approach to integrating sustainability into business operations. Offers practical guidance and tools to streamline implementation. Enables learning from real-world examples and expert insights. Supports continuous improvement and achievement of sustainability goals."
+        }
+    ]
   },
+
   {
     id: "7",
     image: new URL("../assets/service/newsupdate.jpg", import.meta.url).href,
