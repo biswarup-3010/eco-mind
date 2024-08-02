@@ -49,7 +49,7 @@ export default function TeamMember() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       <div className="w-full">
-        <h1 className="text-2xl font-bold text-blue-500 text-center p-4 mb-4">
+        <h1 className="text-3xl font-bold text-blue-500 text-center p-4 mb-4">
           Our Team Members
         </h1>
         <div className="flex flex-col m-auto p-auto">

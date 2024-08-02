@@ -32,7 +32,7 @@ const Card = ({ id, image, heading, description }) => {
 const ServiceHome = ({ cardData }) => {
   return (
     <div id="servicesPage" className="w-full p-10 mt-0 diagonal-gradiant">
-      <div className="heading mt-16 text-3xl font-bold text-blue-500">
+      <div className="heading mt-16 text-3xl text-center font-bold text-blue-500">
         Our Services
       </div>
       <br />

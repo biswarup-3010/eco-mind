@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TeamMember from "./TeamMember";
-import { FaHeart } from "react-icons/fa";
+import { FaHeart, FaSpinner, FaCheckCircle } from "react-icons/fa";
+
 export default function JoinUsPage() {
   const [formData, setFormData] = useState({
     name: "",
@@ -9,6 +10,8 @@ export default function JoinUsPage() {
     idType: "",
     idFile: null,
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
@@ -32,8 +35,16 @@ export default function JoinUsPage() {
       alert("Please fill in all required fields.");
       return;
     }
-    // Handle form submission logic here
-    console.log("Form submitted:", formData);
+
+    // Set loading state
+    setIsSubmitting(true);
+
+    // Simulate form submission
+    setTimeout(() => {
+      console.log("Form submitted:", formData);
+      setIsSubmitting(false);
+      setIsSubmitted(true);
+    }, 2000);
   };
 
   return (
@@ -99,8 +110,19 @@ export default function JoinUsPage() {
           </div>
         </div>
         <div className="flex-1 p-5 sm:px-16 md:mr-8">
-          <h2 className="text-2xl mb-4 text-green-500">Join Us</h2>
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <h2 className="text-4xl text-center mb-4 text-green-500">Join Us</h2>
+          <form onSubmit={handleSubmit} className="space-y-4 relative">
+            {isSubmitting && (
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                <FaSpinner className="text-white text-4xl animate-spin" />
+              </div>
+            )}
+            {isSubmitted && (
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                <FaCheckCircle className="text-green-500 text-4xl" />
+                <span className="text-white ml-2">Form Submitted!</span>
+              </div>
+            )}
             <div>
               <label htmlFor="name" className="block text-lg">
                 Name
@@ -111,6 +133,7 @@ export default function JoinUsPage() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+                placeholder="Enter your name"
                 className="w-full p-2 border border-gray-300 rounded text-black bg-white"
                 required
               />
@@ -125,6 +148,7 @@ export default function JoinUsPage() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                placeholder="Enter your email"
                 className="w-full p-2 border border-gray-300 rounded text-black bg-white"
                 required
               />
@@ -138,6 +162,7 @@ export default function JoinUsPage() {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
+                placeholder="Enter your message"
                 className="w-full p-2 border border-gray-300 rounded text-black bg-white"
                 rows="4"
                 required
