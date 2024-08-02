@@ -385,25 +385,54 @@ const cardData = [
     id: "8",
     image: new URL("../assets/service/tree.jpg", import.meta.url).href,
     heading: "Tree Plantation",
-    description:
-      "Tree planting is the process of transplanting tree seedlings....",
-    image: new URL("../assets/service/carfoot.jpeg", import.meta.url).href,
-    heading: "Carbon Footprint Calculator",
-    description:
-      "Estimates and tracks emissions, offers reduction tips, integrates with wearables.",
-    mainDesc: ``,
-    dHeading1: "",
-    dHeading2: "",
-    dHeading3: "",
-    dHeading4: "",
-    dHeading5: "",
-    dDetails1: ``,
-    dDetails2: ``,
-    dDetails3: ``,
-    dDetails4: ``,
-    dDetails5: ``,
-    OtherDetailHeading: "",
-    OtherDetailsDesc: [],
+    description: "Tree planting is the process of transplanting tree seedlings to new locations, aimed at restoring and enhancing green spaces.",
+  
+    mainDesc: "Tree Plantation involves the process of planting and nurturing young trees in designated areas to promote environmental health and sustainability. This initiative aims to enhance green spaces, improve air quality, and contribute to biodiversity.",
+  
+    dHeading1: "Planting Process",
+    dHeading2: "Environmental Benefits",
+    dHeading3: "Community Involvement",
+    dHeading4: "Maintenance and Care",
+    dHeading5: "How to Get Involved",
+  
+    dDetails1: "The planting process includes selecting appropriate tree species, preparing the soil, planting seedlings, and ensuring proper spacing. Detailed instructions and guidelines are provided to ensure successful establishment of the trees.",
+  
+    dDetails2: "Trees provide numerous environmental benefits including improving air quality, reducing carbon dioxide levels, conserving water, and supporting wildlife habitats. Understanding these benefits helps in appreciating the importance of tree plantation.",
+  
+    dDetails3: "Encourages community participation in tree planting events. Local volunteers, schools, and organizations can join initiatives to plant and care for trees, fostering a sense of environmental stewardship and community engagement.",
+  
+    dDetails4: "Ongoing maintenance is crucial for the health and growth of newly planted trees. This includes watering, mulching, pruning, and monitoring for pests and diseases. Guidelines are provided for maintaining tree health over time.",
+  
+    dDetails5: "Learn how to get involved in tree planting projects in your area. Whether it’s joining a local tree planting event, supporting tree planting organizations, or starting your own initiative, there are various ways to contribute.",
+  
+    OtherDetailHeading: "How to Participate",
+    
+    OtherDetailsDesc: [
+      {
+        headLine: "Find a Tree Planting Event",
+        descs: "Check local listings or organizations for upcoming tree planting events. Join these events to contribute directly to the initiative."
+      },
+      {
+        headLine: "Get Involved Locally",
+        descs: "Reach out to local environmental groups or community organizations to participate in or organize tree planting activities."
+      },
+      {
+        headLine: "Adopt a Tree",
+        descs: "Consider adopting a tree or small grove to support its growth and maintenance. Engage in activities that contribute to its health and survival."
+      },
+      {
+        headLine: "Educate and Advocate",
+        descs: "Educate others about the benefits of tree plantation and advocate for more green spaces in your community. Share information through social media and local events."
+      },
+      {
+        headLine: "Monitor and Maintain",
+        descs: "If involved in ongoing projects, assist with the maintenance and monitoring of planted trees to ensure their long-term success."
+      },
+      {
+        headLine: "Benefits",
+        descs: "Contributes to environmental conservation and biodiversity. Improves air quality and reduces carbon footprint. Engages and educates the community about sustainability. Enhances local green spaces and provides aesthetic and ecological value."
+      }
+    ]
   },
   
 ];
