@@ -16,33 +16,21 @@ export default function TeamMember() {
     },
     {
       id: 2,
-      picture: npic,
-      name: "Nishi Kumari",
-      fb: "https://www.linkedin.com/in/nishi-barnwal-032043301/",
+      picture: rpic,
+      name: "Rajan Kumar",
+      fb: "https://www.linkedin.com/in/rajan-kumar-65541a22b/",
     },
     {
       id: 3,
-      picture: biswapic,
-      name: "Biswarup Banerjee",
-      fb: "https://www.linkedin.com/in/biswarup-banerjee-406b72241/",
+      picture: spic,
+      name: "Santosh Kumar",
+      fb: "https://www.linkedin.com/in/santosh-kumar-a8490824a/",
     },
     {
       id: 4,
       picture: upic,
       name: "Umesh Kumar",
       fb: "https://www.linkedin.com/in/umesh-kumar-aa2286230/",
-    },
-    {
-      id: 5,
-      picture: rpic,
-      name: "Rajan Kumar",
-      fb: "https://www.linkedin.com/in/rajan-kumar-65541a22b/",
-    },
-    {
-      id: 6,
-      picture: spic,
-      name: "Santosh Kumar",
-      fb: "https://www.linkedin.com/in/santosh-kumar-a8490824a/",
     },
   ];
 
