@@ -16,15 +16,15 @@ export default function TeamMember() {
     },
     {
       id: 2,
-      picture: rpic,
-      name: "Rajan Kumar",
-      fb: "https://www.linkedin.com/in/rajan-kumar-65541a22b/",
+      picture: npic,
+      name: "Nishi Kumari",
+      fb: "https://www.linkedin.com/in/nishi-barnwal-032043301/",
     },
     {
       id: 3,
-      picture: spic,
-      name: "Santosh Kumar",
-      fb: "https://www.linkedin.com/in/santosh-kumar-a8490824a/",
+      picture: biswapic,
+      name: "Biswarup Banerjee",
+      fb: "https://www.linkedin.com/in/biswarup-banerjee-406b72241/",
     },
     {
       id: 4,
